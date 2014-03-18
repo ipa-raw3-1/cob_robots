@@ -29,7 +29,7 @@
 
 		<!-- start robot_state_publisher -->
 		<node pkg="robot_state_publisher" type="state_publisher" name="robot_state_publisher"/>
-		<node pkg="cob_bringup" type="raw-led-status.py" name="raw-led-status"/>
+		<node pkg="cob_bringup" type="raw3-led-status.py" name="raw-led-status"/>
 
 		<!-- startup hardware -->
 		<!-- lower robot -->
